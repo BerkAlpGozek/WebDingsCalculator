@@ -86,7 +86,6 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text(String(AskaLnglSryu))
             Button{
                 
             } label: 
