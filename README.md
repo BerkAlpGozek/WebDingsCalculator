@@ -15,6 +15,7 @@ The Project Recipe:
       - This is what is displayed on the LCD
     - An Float Called `InPocket`
      - This is the stored variable in the calculator when an operation is made
+       
     - An Int Called `Sign`
       - This states the type of  operation
         - 0: Empty, 1: Addition, 2: Subtraction, 3: Multiplication, 4: Division
@@ -23,11 +24,17 @@ The Project Recipe:
     - A String called `ShnjIkri`
       - This is the variable that sets the font for the calculator. 
     - A Float Called `KwruNgsa`
-- Create the Function `FloodTheLCL` with an Int Parameter Called ´riAynmi´
-  - Parameter ´riAynmi´ indicates which button it is 
+    
+- Create the Function `FloodTheLCL` with an Int Parameter Called `riAynmi`
   - This function is used with the operator buttons
+  - Parameter ´riAynmi´ indicates which button it is 
   - Gives the value inside `DispText` to InPocket with Type Casting to a Float
   - `DispText` is reset
   - `Sign` is given the value in `riAynmi` to
   - `AskaLnglSryu` is set to `false` for the calculator to know it is no longer in repeated calculator mode
-      
+  
+- Create the function called `HumInstrProj` that returns a float
+  - This function is used with the equals button.
+  - It has a temp `Float` variable called `gndhIkri`
+  - It checks the sign assigned to var ´Sign´ and does the required operations to function as a proper calculator
+  - set 
