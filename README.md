@@ -6,13 +6,14 @@ This project is a simple 4-operation calculator with a font called "WebDings." I
 
 This project was made in Playgrounds using SwiftUI. 
 
-I followed these steps in making this project:
+The Project Recipe:
+-
   - Create all the buttons required for this calculator and place them accordingly
   - Use a disabled button for the LCD with the alignment Trailing.
   - Create required variables:
     - A String called `DispText`
       - This is what is displayed on the LCD
-    - An Int Called `InPocket`
+    - An Float Called `InPocket`
      - This is the stored variable in the calculator when an operation is made
     - An Int Called `Sign`
       - This states the type of  operation
@@ -20,6 +21,13 @@ I followed these steps in making this project:
     - A bool Called `AskaLnglSryu`
       - This boolean tells the code if it is in repeated calculation mode
     - A String called `ShnjIkri`
-      - This is the variable that sets the font for the calculator.
-     
+      - This is the variable that sets the font for the calculator. 
+    - A Float Called `KwruNgsa`
+- Create the Function `FloodTheLCL` with an Int Parameter Called ´riAynmi´
+  - Parameter ´riAynmi´ indicates which button it is 
+  - This function is used with the operator buttons
+  - Gives the value inside `DispText` to InPocket with Type Casting to a Float
+  - `DispText` is reset
+  - `Sign` is given the value in `riAynmi` to
+  - `AskaLnglSryu` is set to `false` for the calculator to know it is no longer in repeated calculator mode
       
