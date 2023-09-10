@@ -5,6 +5,9 @@ WebDings Calculator made for AP CS Principles @ Hisar School 2023-2024
 This project is a simple 4-operation calculator with a font called "WebDings." I used this font to give it a more creative look and give it some personality.
 
 This project was made in Playgrounds using SwiftUI. 
+
+## App Preview
+
 ![Screenshot 1](https://github.com/BerkAlpGozek/WebDingsCalculator/blob/main/App%20Screenshots/Empty.png)
 
 The Project Recipe:
