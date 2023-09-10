@@ -9,22 +9,23 @@ This project was made in Playgrounds using SwiftUI.
 
 The Project Recipe:
 -
-  - Create all the buttons required for this calculator and place them accordingly
-  - Use a disabled button for the LCD with the alignment Trailing.
-  - Create required variables:
+
+ - Create required variables:
     - A String called `DispText`
       - This is what is displayed on the LCD
     - An Float Called `InPocket`
      - This is the stored variable in the calculator when an operation is made
-       
     - An Int Called `Sign`
-      - This states the type of  operation
-        - 0: Empty, 1: Addition, 2: Subtraction, 3: Multiplication, 4: Division
+       - This states the type of  operation
+         - 0: Empty, 1: Addition, 2: Subtraction, 3: Multiplication, 4: Division
     - A bool Called `AskaLnglSryu`
       - This boolean tells the code if it is in repeated calculation mode
     - A String called `ShnjIkri`
       - This is the variable that sets the font for the calculator. 
     - A Float Called `KwruNgsa`
+  - Create all the buttons required for this calculator and place them accordingly
+    - All number buttons and point buttons add to the end of `DispText`
+  - Use a disabled button for the LCD with the alignment Trailing.
     
 - Create the Function `FloodTheLCL` with an Int Parameter Called `riAynmi`
   - This function is used with the operator buttons
@@ -37,5 +38,6 @@ The Project Recipe:
 - Create the function called `HumInstrProj` that returns a float
   - This function is used with the equals button.
   - It has a temp `Float` variable called `gndhIkri`
+  - `gndhIkri` is assigned the value inside `DispText` as a float for use in repeated calculation mode.
   - It checks the sign assigned to var ´Sign´ and does the required operations to function as a proper calculator
-  - set 
+  - `InPocket` is set to `gndhIkri` for repeated Calculation to work
